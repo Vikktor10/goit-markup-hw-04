@@ -81,18 +81,15 @@ a {
    font-size: 26px;
    line-height: 1.2;
    letter-spacing: 0.03em;
+   color: var(--accent-color);
    
 }
 
-.logo.first {
-   color: var(--accent-color);
-}
-
-.logo.second {
+.logo .second {
    color: var(--title-color);
 }
 
-.footer .second {
+.footer .logo .second {
    color: var(--main-white);
 }
 
@@ -433,9 +430,6 @@ a {
    fill: #AFB1B8;
 }
 
-
-
-
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
    fill: var(--accent-color);
@@ -445,11 +439,6 @@ a {
 .clients-link:focus {
    border: 1px solid var(--accent-color);
 }
-
-
-
-
-
 
  /* Footer */
 
@@ -477,17 +466,20 @@ a {
     margin-top: 9px;
  }
 
- .container-footer {
+ .footer-container {
    display: flex;
-   align-items: center;
-   justify-content: center;
+   align-items: baseline;
+
+ }
+ .footer-item:not(:last-child) {
+   margin-right: 70px;
  }
 
- .footer-soc {
+ /* .footer-soc {
    display: flex;
    align-items: center;
    justify-content: center;
- }
+ } */
 
  .footer-soc-text {
     font-size: 14px;
