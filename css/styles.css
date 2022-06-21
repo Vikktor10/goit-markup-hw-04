@@ -137,6 +137,8 @@ a {
 
  .contacts .info {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-right: 30px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -296,7 +298,8 @@ a {
  /* Our team */
 
  .section-team {
-   padding: 94px 215px;
+   padding-top: 94px;
+   padding-bottom: 94px;
    background: #F5F4FA;
    
  }
@@ -314,6 +317,7 @@ a {
 
  .team-list {
    display: flex;
+   align-items: center;
    justify-content: center;
  }
 
@@ -473,14 +477,16 @@ a {
     margin-top: 9px;
  }
 
- .footer-container {
+ .container-footer {
    display: flex;
-   margin-right: 885px;
-   margin-left: 208px;
+   align-items: center;
+   justify-content: center;
  }
 
  .footer-soc {
-  display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
  }
 
  .footer-soc-text {
