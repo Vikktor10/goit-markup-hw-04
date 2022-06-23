@@ -233,7 +233,7 @@ a {
    justify-content: center;
  }
 
- .feature>.item:not(:last-child) {
+ .feature.item:not(:last-child) {
    margin-right: 30px;
  }
 
